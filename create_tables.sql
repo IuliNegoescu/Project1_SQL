@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS Deliveries;
 CREATE TABLE Deliveries
 (
     Delivery_ID INTEGER PRIMARY KEY AUTOINCREMENT,
-    Truck_ID INTEGER,
+    Truck_ID INTEGE,
     Driver_ID INTEGER,
     Route_ID INTEGER,
     Date INTEGER,
