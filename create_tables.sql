@@ -18,7 +18,7 @@ CREATE TABLE Drivers
     First_Name TEXT,
     Last_Name TEXT,
     Experience_Years INTEGER,
-    Liciense_Type TEXT
+    License_Type TEXT
 );
 
 DROP TABLE IF EXISTS Routes;
@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS Deliveries;
 CREATE TABLE Deliveries
 (
     Delivery_ID INTEGER PRIMARY KEY AUTOINCREMENT,
-    Truck_ID INTEGE,
+    Truck_ID INTEGER,
     Driver_ID INTEGER,
     Route_ID INTEGER,
     Date INTEGER,
