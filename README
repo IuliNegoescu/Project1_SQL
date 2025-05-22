@@ -1,0 +1,45 @@
+# Transport & Delivery Tracker (SQL-Only Project)
+
+## Description
+
+This project simulates a transport and logistics company database, using only SQL. It contains all the necessary tables to manage a fleet of trucks, drivers, delivery routes, fuel prices, and completed deliveries. The goal is to demonstrate SQL proficiency in creating and querying relational databases for real-world business scenarios.
+
+
+
+## Technologies Used
+
+- SQL 
+
+## Project Structure
+
+- `create_tables.sql`: Defines the database schema with foreign key constraints.
+- `insert_data.sql`: Populates the database with example data (trucks, drivers, routes, deliveries, fuel prices).
+- `queries.sql`: Contains various SQL queries for analysis and reporting.
+
+## Database Schema
+
+The project includes the following tables:
+- `Trucks` – stores truck information (model, fuel consumption, engine, year)
+- `Drivers` – stores driver information (name, experience, license type)
+- `Routes` – stores delivery routes (origin, destination, distance)
+- `Deliveries` – links trucks, drivers, and routes with date, profit, and fuel used
+- `FuelPrices` – stores fuel price history by date
+
+## SQL Concepts Demonstrated
+
+- `CREATE TABLE` with primary and foreign keys
+- `INSERT INTO` with sample business data
+- `JOIN` between multiple tables
+- `GROUP BY`, `ORDER BY`, `SUM()`, `MAX()`, `AVG()`, `LIMIT`
+- Simple business intelligence queries (profit per driver, fuel consumption per truck, etc.)
+
+## How to Use
+
+1. Create a new database using SQLite or your preferred SQL engine.
+2. Run `create_tables.sql` to initialize the schema.
+3. Run `insert_data.sql` to populate the tables.
+4. Run `queries.sql` to execute analytical queries.
+
+## Author
+
+Project by Negoescu Iulian Andrei, built to strengthen SQL skills and showcase practical data modeling for internship and job applications.
