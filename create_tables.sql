@@ -53,4 +53,4 @@ CREATE TABLE FuelPrices
 (
     Date INTEGER PRIMARY KEY,
     Fuel_Price REAL
-);
+);  
